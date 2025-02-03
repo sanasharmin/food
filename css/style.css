@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+
+display: flex;
+align-items: center;
+
+}
+#logo{
+
+
+
+}
+
+
+
+#logo img{
+
+height: 134px;
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar{
+
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: chocolate;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+
+
+
+
+}
+#navbar ul li{
+list-style: none;
+font-size: medium;
+
+}
+#navbar ul li a{
+    color: bisque;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+background-color: rgba(165, 156, 190, 0.384);
+border-radius: 30%;
+color:antiquewhite ;
+
+}
+
+#HOME{
+    display: flex;
+    flex-direction: column;
+    padding:50px 200px ;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#HOME::before{
+    content: "";
+background: url(../image/pasta-1181189_1280.jpg) no-repeat center center/cover;    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    margin-bottom: 400px;
+
+}
+.primary{
+font-size: 30px;
+padding: 12px;
+
+}
+.btn{
+background-color: brown;
+color: beige;
+border: 2px solid black;
+margin: 17px;
+padding: 6px 20px;
+font-size: large;
+}
+.btn:hover{
+    background-color: black;
+    border-radius: 10px;
+    transition: 5s;
+    color: aliceblue;
+}
+.hh{
+text-align: center;
+font-size: 50px;
+
+
+}
+.grid{
+    
+    width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-around;
+justify-content: space-between;
+    background-color: burlywood;
+    
+}
+#grid1{
+
+
+width: 30%;
+height: 293px;
+border: 4px solid black;
+
+}
+.hh2{
+text-align: center;
+font-size: 30px;
+
+
+}
+#grid2{
+width: 30%;
+height: 293px;
+border: 4px solid black;}
+#grid3{
+    width: 30%;
+    height: 293px;
+    border: 4px solid black;}
+    .us{
+        text-align: center;
+font-size: 50px;
+
+
+    }
+
+    .cnt{
+        background: url(../image/contact\ image.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 250px;
+        
+
+    }
+    .ww{
+        justify-content: center;
+        display: flex;
+        padding-top: 40px;
+        padding-right: 330px;
+
+
+    }
+    .pp{
+    justify-content: center;
+        display: flex;
+        padding-top: 10px;
+        padding-right: 330px;}
+        .mm{
+        justify-content: center;
+        display: flex;
+        padding-top: 10px;
+        padding-right: 330px;}
